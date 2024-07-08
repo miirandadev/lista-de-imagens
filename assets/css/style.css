@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    font-family: "Public Sans", sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.pinturas {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.pinturas .pintura {
+    width: 335px;
+    position: relative;
+    height: 431px;
+}
+
+.pinturas .pintura .informacoes {
+    position: absolute;
+    color: white;
+    bottom: 40px;
+    left: 20px;
+}
+
+.pinturas .pintura img {
+    width: 100%;
+}
+
+.pinturas .pintura .informacoes .titulo {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.pinturas .pintura .informacoes .subtitulo {
+    font-weight: 300;
+    font-size: 17px;
+}
+
+/* body {
+    font-family: "Public Sans", sans-serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+
+.pinturas {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.pintura h2  {
+    color: white;
+    position:relative;
+    top: -90px;
+    margin-left: 20px
+}
+
+.pintura p {
+    font-weight: 300;
+    color: white;
+    position: relative;
+    top: -90px;
+    margin-left: 20px;
+}
+
+@media(max-width:740px) {
+    .pinturas {
+        display: block;
+        height: 100vh;
+        margin-top: 30px;
+    }
+
+    .pintura img{
+        margin-bottom: -50px;
+    }
+} */
